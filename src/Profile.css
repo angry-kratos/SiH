@@ -1,0 +1,50 @@
+#main-profile-body {
+    
+    width: 60vw;
+    background-color: rgb(33, 33, 33);
+    border-radius: 3px;
+    margin-left: 275px;
+    margin-top: 170px;
+    padding: 30px;
+    
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.heading-profile {
+    color: white;
+    font-size: large;
+    /* border: 1px solid red; */
+    margin-right: 15vw;
+    margin-left: 2vw;
+    margin-top: 5vh;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.main-point {
+    margin-top: 6vh;
+    color: aquamarine;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+div textarea {
+    font-size: 18px;
+    background-color: rgb(33, 33, 33);
+    color: aquamarine;
+    margin-top: 5vh;
+    width: 28vw;
+    margin-left: -5vw;
+    height: 10vh;
+    /* border: 1px solid aquamarine; */
+    border-radius: 3px;
+    padding: 6px;
+    font-family: 'Trebuchet MS', sans-serif;
+    min-width: 30vw;
+    max-width: 30vw;
+    min-height: 3vh;
+}
+
+#address-textarea {
+    margin-left: -1.8vw;
+
+}
