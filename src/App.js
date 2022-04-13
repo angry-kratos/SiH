@@ -6,26 +6,22 @@ import About from './About'
 import Contact from "./Contact";
 import Statistics from "./Statistics";
 import Profile from "./Profile";
-// import SignUp from "./Signup";
+import AddressChange from "./AddressChange";
+import SignUp from "./SignUp";
 
 
 function App() {
   return (
     <Router>
       <Routes>
-
         <Route path="/" element={<First />} />
         <Route path='/Login' element={<Login />} />
         <Route path='/About' element={<About />} />
         <Route path='/Contact' element={<Contact />} />
-        {/* <Route path='/SignUp' element={<SignUp />} /> */}
+        <Route path='/SignUp' element={<SignUp />} />
         <Route path='/Statistics' element={<Statistics />} />
         <Route path='/Profile' element={<Profile />} />
-
-
-
-
-
+        <Route path='/AddressChange' element={<AddressChange />} />
       </Routes>
 
 

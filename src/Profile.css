@@ -1,50 +1,95 @@
 #main-profile-body {
-    
     width: 60vw;
     background-color: rgb(33, 33, 33);
     border-radius: 3px;
-    margin-left: 275px;
-    margin-top: 170px;
-    padding: 30px;
-    
-    font-family: 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .heading-profile {
-    color: white;
-    font-size: large;
     /* border: 1px solid red; */
-    margin-right: 15vw;
+    color: aquamarine;
+    font-size: large;
+    margin-right: 17vw;
     margin-left: 2vw;
     margin-top: 5vh;
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .main-point {
-    margin-top: 6vh;
-    color: aquamarine;
-    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 5vh;
+    color: aqua;
+    font-family: 'Lora', serif;
     font-size: 18px;
 }
 
-div textarea {
+.div-card {
+    display: flex;
+}
+
+div input {
     font-size: 18px;
     background-color: rgb(33, 33, 33);
     color: aquamarine;
-    margin-top: 5vh;
+    margin-top: 4.2vh;
     width: 28vw;
-    margin-left: -5vw;
-    height: 10vh;
-    /* border: 1px solid aquamarine; */
+    margin-left: -7vw;
+    height: 2vh;
     border-radius: 3px;
     padding: 6px;
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'Lora', serif;
     min-width: 30vw;
     max-width: 30vw;
     min-height: 3vh;
 }
 
-#address-textarea {
-    margin-left: -1.8vw;
 
+::-webkit-scrollbar {
+    width: 8px;
+    background: rgb(33, 33, 33);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #808080;
+    border-radius: 8px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #505050;
+}
+
+#div-address-head {
+    width: 117px;
+}
+
+.btn {
+    width: 5vw;
+    height: 4vh;
+    font-size: 18px;
+    border-radius: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 45.7vw;
+    margin-top: 1vh;
+    background-color: black;
+    border: 0px;
+    color: #909090;
+}
+
+.btn:hover {
+    transform: scale(1.15);
+}
+
+.btn:active {
+    transform: scale(1);
+    background-color: #303030;
+}
+
+#input-phone-number {
+    border: 0.0001px solid #808080;
+    text-align: center;
+    margin-left: -7.9vw;
+    margin-bottom: 5vh;
 }

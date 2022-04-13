@@ -1,103 +1,30 @@
 .LoginArea > h1 {
     margin-top: 150px;
-    font-family: 'Trebuchet MS', sans-serif;
-    font-size: 80px;
+    font-family: 'Martel', serif;
+    font-size: 50px;
     color: white;
-    text-align: center;
-}
-
-#arrow {
-    margin-left: 4px;
-    font-size: 47px;
-    width: 50px;
-    transform: scaleX(1.6);
-    color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .login-body {
-    margin: 40px auto;
+    margin: 38px auto;
     border: 1px solid aquamarine;
-    width: 30%;
-    height: 315px;
+    width: 35%;
+    height: 40vh;
     border-radius: 5px;
     background-color: rgb(33, 33, 33);
     box-shadow: 0 0 8px darkgray;
 }
 
-.head {
-    color: aquamarine;
-    margin: auto;
-    margin-top: 85px;
-    border: 1.5px solid aquamarine;
-    width: 140px;
-    height: 37px;
-    font-family: 'Libre Baskerville', serif;
-    font-size: 24px;
-    text-align: center;
-    padding-top: 8px;
-    border-radius: 4px;
-}
-
-.Login {
-    font-family: 'Libre Baskerville', serif;
-    margin: 40px 36%;
-    height: 45px;
-    width: 26%;
-    font-size: large;
-    color: aquamarine;
-    background-color: rgb(33, 33, 33);
-    border: 1px solid aquamarine;
-    border-radius: 4px;
-}
-
 .section {
     display: flex;
-    /* border: 1px solid aquamarine; */
     height: 50px;
-}
 
-.inputField {
-    color: aquamarine;
-    font-family: 'Libre Baskerville', serif;
-    height: 35px;
-    margin-left: 6.5%;
-    width: 65%;
-    border: 1px;
-    border-bottom: 1px solid aquamarine;
-    background-color: rgb(33, 33, 33);
-    padding-left: 2.3%;
-    font-size: large;
-    margin-top: 6px;
 }
 
 .email-div {
-    margin-top: 50px;
-}
-
-.hover-icon {
-    color: aquamarine;
-    background-color: rgb(70, 70, 70);
-    height: fit-content;
-    padding: 4px;
-    border-radius: 5px;
-    font-size: small;
-    width: fit-content;
-    margin-left:17px;
-    margin-top: -8px;
-    position: absolute;
-}
-#passwordie {
-    color: aquamarine;
-    width: 500px;font-family: 'Libre Baskerville', serif;
-    height: 35px;
-    margin-left: 6.5%;
-    width: 65%;
-    border: 1px;
-    border-bottom: 1px solid aquamarine;
-    background-color: rgb(33, 33, 33);
-    padding-left: 2.3%;
-    font-size: large;
-    margin-top: 6px;
+    margin-top: 40px;
 }
 
 .password-div {
@@ -105,20 +32,37 @@
 }
 
 .icon {
-    margin-left: 35px;
     background-position: left bottom;
     color: aquamarine;
     font-size: x-large;
-    margin-top: 15px;
-}
-.Login:hover {
-    color: rgb(33, 33, 33);
-    background-color: aquamarine;
+    margin-top: 2.3vh;
+    margin-left: 3.3vw;
 }
 
-.Login:active {
+.standard-basic {
+    color: white;
+    width: 70%;
+}
+
+#visibility-of-password {
+    height: fit-content;
+    margin-top: 1.3vh;
+    margin-right: 3.5vw;
+    margin-left: -3vw;
     color: aquamarine;
-    background-color: rgb(33, 33, 33);
+}
+
+#btn-login {
+    border-radius: 7px;
+    background-color: #21b6ae;
+    padding: 12px 24px;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+#btn-login:hover {
+    transform: scale(1.05);
+    border-width: 0px;
 }
 
 #signup-shortcut {
@@ -128,8 +72,4 @@
 
 #shortcut-link {
     color: aquamarine;
-}
-
-#shortcut-link:hover {
-    color: rgb(37, 117, 91);
 }
