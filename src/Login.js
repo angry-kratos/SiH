@@ -62,7 +62,6 @@ function Login() {
                 </div><br />
                 <div className='section password-div'>
                     <div className='icon'><LockIcon id="lock-icon" /></div>
-
                     <TextField 
                     value={passwordVisible.password}
                     type={passwordVisible.showPassword ? 'text' : 'password'}

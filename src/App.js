@@ -8,6 +8,7 @@ import Statistics from "./Statistics";
 import Profile from "./Profile";
 import AddressChange from "./AddressChange";
 import SignUp from "./SignUp";
+import SecondSignUpPage from "./SecondSignUpPage";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path='/Statistics' element={<Statistics />} />
         <Route path='/Profile' element={<Profile />} />
         <Route path='/AddressChange' element={<AddressChange />} />
+        <Route path="/SecondSignUpPage" element={<SecondSignUpPage />} />
       </Routes>
 
 
